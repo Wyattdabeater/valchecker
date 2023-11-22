@@ -46,7 +46,7 @@ class program():
         codes = vars(colorama.Fore)
         colors = [codes[color] for color in codes if color not in ['BLACK']]
         colored_name = [random.choice(colors) + char for char in f'ValChecker by liljaba1337']
-        print(sys.get_spaces_to_center('ValChecker by liljaba1337')+(''.join(colored_name))+colorama.Fore.RESET)
+        print(sys.get_spaces_to_center('ValChecker by 738.6')+(''.join(colored_name))+colorama.Fore.RESET)
         print(sys.center(f'v{self.version}'))
         print(sys.center(f'{Fore.YELLOW}Thank you for using ValChecker! Made by 738.6'))
     
@@ -55,9 +55,6 @@ class program():
         try:
             r.json()['message']
         except:
-            print(sys.center(f'{Fore.GREEN}Good news! ValChecker4 is out!'))
-            print(sys.center(f'{Fore.GREEN}Please follow this link to download it:'))
-            print(sys.center(f'{Fore.GREEN}https://github.com/LIL-JABA/valchecker4{Fore.WHITE}'))
         if 'devtest' in self.version:
             print(sys.center(f'{Fore.YELLOW}Hi from liljaba'))
         elif 'beta' in self.version:
