@@ -49,11 +49,9 @@ class program():
         print(sys.get_spaces_to_center('ValChecker by liljaba1337')+(''.join(colored_name))+colorama.Fore.RESET)
         print(sys.center(f'v{self.version}'))
         print(sys.center(f'{Fore.YELLOW}Thank you for using ValChecker!'))
-        print(sys.center(f'{Fore.YELLOW}v3.15.2 is the last version of ValChecker released by liljaba in Python'))
-        print(sys.center(f'{Fore.YELLOW}Im currently working on ValChecker4, so I\'ll notify you when it\'s out'))
-        print(sys.center(f'{Fore.YELLOW}This version of ValChecker WILL NOT be supported by me anymore'))
+    
         print()
-        r = requests.get('https://api.github.com/repos/lil-jaba/valchecker4')
+        r = requests.get('discord is 738.6 add me for questions')
         try:
             r.json()['message']
         except:
@@ -75,12 +73,12 @@ class program():
                 os._exit(0)
         menu_choices = [
             Separator(),
-            'Start Checker',
-            'Single-Line Checker',
-            'Edit Settings',
-            'Sort Valid',
-            'Test Proxy',
-            f'Some info for devs',
+            'Start Checker W',
+            'Single-Line Checker W',
+            'Edit Settings W',
+            'Sort Valid W',
+            'Test Proxy W',
+            f'Some info for devs W',
             Separator(),
             'Exit'
         ]
