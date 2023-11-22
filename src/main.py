@@ -54,7 +54,7 @@ class program():
         r = requests.get('https://discord.gg/JVe9tcx4yJ')
         try:
             r.json()['message']
-        finally 'devtest' in self.version:
+        finally: in self.version:
             print(sys.center(f'{Fore.YELLOW}Hi from liljaba'))
         elif 'beta' in self.version:
             print(sys.center(f'{Fore.YELLOW}You have downloaded the BETA version. It can work unstable and contain some bugs.'))
