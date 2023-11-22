@@ -48,10 +48,10 @@ class program():
         colored_name = [random.choice(colors) + char for char in f'ValChecker by liljaba1337']
         print(sys.get_spaces_to_center('ValChecker by liljaba1337')+(''.join(colored_name))+colorama.Fore.RESET)
         print(sys.center(f'v{self.version}'))
-        print(sys.center(f'{Fore.YELLOW}Thank you for using ValChecker!'))
+        print(sys.center(f'{Fore.YELLOW}Thank you for using ValChecker! Made by 738.6'))
     
         print()
-        r = requests.get('discord is 738.6 add me for questions')
+        r = requests.get('https://discord.gg/JVe9tcx4yJ')
         try:
             r.json()['message']
         except:
